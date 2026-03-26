@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:QuestWorldMainWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="Black">
+
+        <StackPanel Margin="249,0,259,249">
+            <Image Source="/Resources/QuestWorldLogo.png" Width="295" Height="211"/>
+        </StackPanel>
+
+        <Button x:Name="ButtonStartGame" Content="Start Game" HorizontalAlignment="Left" Margin="356,0,0,0" VerticalAlignment="Center" Height="22" Width="78" Click="ButtonStartGame_Click"/>
+        <Button x:Name="ButtonQuit" Content="Quit" HorizontalAlignment="Left" Margin="356,233,0,0" VerticalAlignment="Top" Height="21" Width="78" Click="ButtonQuit_Click"/>
 
     </Grid>
 </Window>

@@ -20,5 +20,15 @@ namespace QuestWorldMainWPF
         {
             InitializeComponent();
         }
+
+        private void ButtonQuit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ButtonStartGame_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

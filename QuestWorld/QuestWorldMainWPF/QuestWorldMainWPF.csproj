@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resources\QuestWorldLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\QuestWorldLogo.png" />
+  </ItemGroup>
+
 </Project>
